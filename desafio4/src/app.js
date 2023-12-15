@@ -1,3 +1,4 @@
+import express from "express";
 import express, { urlencoded } from "express";
 import router from "./routes/index.js";
 
