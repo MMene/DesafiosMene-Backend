@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Camiseta Argentina 86",
+      "description": "Camiseta Retro Argentina 86",
+      "price": 56000,
+      "thumbnail": "https://acdn.mitiendanube.com/stores/002/292/348/products/a13526711-6baab96429859bf36e16716585365496-1024-1024.jpg",
+      "code": "ABC123",
+      "stock": 10,
+      "category": "remera",
+      "status": true,
+      "id": 1
+    },
+    {
+      "title": "Camiseta Argentina 2006",
+      "description": "Mundial 2006",
+      "price": 35000,
+      "thumbnail": "https://acdn.mitiendanube.com/stores/002/292/348/products/e774d8651-daa476b762a49ed5e016716860795705-1024-1024.jpg",
+      "code": "XDXD",
+      "stock": 15,
+      "category": "remera",
+      "status": true,
+      "id": 2
+    }
+  ]
