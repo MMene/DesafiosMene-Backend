@@ -52,11 +52,11 @@ router.put('/:pid', async (req, res) => {
 })
 
 router.delete('/:pid', async (req, res) => {
-  const { pid } = req.params;
-  const status = await manager.deleteProductById(parseInt(pid));
-  const io = getIO();
-  io.emit('deleteProduct', pid);
-  res.status(status.code).json({ status: status.status });
+    const { pid } = req.params;
+    const status = await manager.deleteProductById(parseInt(pid));
+    const io = getIO();
+    io.emit('deleteProduct', pid);
+    res.status(status.code).json({ status: status.status });
 });
 
 export default router;

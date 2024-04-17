@@ -17,9 +17,9 @@ router.get('/:cid', async (req, res) => {
     const { cid } = req.params;
     const cartProducts = await manager.getProductsOfCartById(parseInt(cid));
     if(cartProducts) {
-      res.send({status: "success", payload: cartProducts });
+        res.send({status: "success", payload: cartProducts });
     }else {
-      res.status(404).json({'error': 'Carrito no encontrado'});
+        res.status(404).json({'error': 'Carrito no encontrado'});
     }
 });
 
